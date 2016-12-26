@@ -1,0 +1,25 @@
+{
+  "name": "nuclide-test-runner-cmd",
+  "main": "./lib/nuclide-test-runner-cmd.js",
+  "version": "0.0.0",
+  "description": "Nuclide test runner for console commands",
+  "keywords": [
+    "nuclide",
+    "test"
+  ],
+  "repository": "https://github.com/xdissent/nuclide-test-runner-cmd",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "providedServices": {
+    "nuclide-test-runner.provider": {
+      "description": "Command Test Runner",
+      "versions": {
+        "0.0.0": "provideTestRunner"
+      }
+    }
+  }
+}
