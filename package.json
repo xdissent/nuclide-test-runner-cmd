@@ -1,7 +1,7 @@
 {
   "name": "nuclide-test-runner-cmd",
   "main": "./lib/nuclide-test-runner-cmd.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Nuclide test runner for console commands",
   "keywords": [
     "nuclide",
@@ -12,8 +12,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "providedServices": {
     "nuclide-test-runner.provider": {
       "description": "Command Test Runner",
